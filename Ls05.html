@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            font-family: sans-serif;
+            color: rgb(22, 100, 217);
+        }
+        p {
+            font-size: 18px;
+            color: black;
+        }
+        .example {
+            background-color: #f5f5dc;
+            padding: 15px;
+            border-left: 5px solid #ffcc00;
+            font-family: monospace;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>5. Groups of Selectors</h1>
+    <p>A comma-separated list of selectors represents the union of all elements selected by each of the individual
+        selectors in the list.</p>
+    <p>In this example, we condense three rules with identical declarations into one.</p>
+    <div class="example">
+        <h2>CSS example:</h2>
+        <p>h1 { font-family: sans-serif } <br>
+            h2 { font-family: sans-serif } <br>
+            h3 { font-family: sans-serif }</p>
+        <p>is equivalent to:</p>
+        <p>h1, h2, h3 { font-family: sans-serif }</p>
+    </div>
+</body>
+
+</html>
